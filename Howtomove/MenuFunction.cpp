@@ -25,7 +25,21 @@ void MenuTwoFuc(UserData &a)
 	cout << "유저PW : " << a.PW << endl;
 	cout << "유저 성별 : " << a.gender << endl << endl;
 
-	cout << "3초 있다가 종료됩니다.";
+	cout << "3초 후에 종료됩니다.";
 
+	Sleep(3000);
+}
+
+void MenuTrdFuc(UserData & a)
+{
+	system("cls");
+
+	a.ID = "";
+	a.PW = "";
+	a.gender = "";
+
+	cout << "유저 정보가 삭제되었습니다" << endl << endl;
+
+	cout << "3초 후에 종료됩니다.";
 	Sleep(3000);
 }

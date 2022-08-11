@@ -1,4 +1,2 @@
 ﻿  main.cpp
-c:\users\user\desktop\lastdance\howtomove\main.cpp(42): warning C4101: 'input' :참조되지 않은 지역 변수입니다.
-c:\users\user\desktop\lastdance\howtomove\main.cpp(42): warning C4101: 'Randnum' :참조되지 않은 지역 변수입니다.
-  Howtomove.vcxproj -> C:\Users\User\Desktop\LastDance\Howtomove\x64\Debug\Howtomove.exe
+  Howtomove.vcxproj -> C:\Users\User\Desktop\LastDance\CPlusGamePractice\CPlusGamePractice\Howtomove\x64\Debug\Howtomove.exe

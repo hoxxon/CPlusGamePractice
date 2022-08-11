@@ -30,11 +30,17 @@ int main()
 			MenuTwoFuc(UD);
 			break;
 		case 3:
+			MenuTrdFuc(UD);
+			break;
+		case 4:
 			run = 0;
+			break;
 		default:
+			OutofValue();
 			break;
 		}
 	} while (run);
 
-	cout << "do while¹® Å»Ãâ";
+	cout << endl;
+	cout << "¾È³çÈ÷ °¡½Ê½Ã¿À.";
 }
