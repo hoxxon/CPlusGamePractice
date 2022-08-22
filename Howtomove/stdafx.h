@@ -1,26 +1,23 @@
 #pragma once
-#include <iostream>
+
+#define WIN32_LEAN_AND_MEAN
+
 #include <Windows.h>
-//time()을 사용하기 위한 헤더파일
 #include <time.h>
-//문자열 헤더파일
+#include <tchar.h>
+
+#include <iostream>
 #include <string>
-//사용자 정의 함수 모음
-//#include "function.h"
+#include <vector>
 
 using namespace std;
 
 
-struct UserData
-{
-	string ID;
-	string PW;
-	string gender;
-};
-
-
-/*
+//유니코드 사용시
 #ifdef _UNICODE
-#else
+#define _tstring wstring
+#define _tcout wcout
+#else //멀티바이트 사용시
+#define _tstring string
+#define _tcout cout
 #endif // _UNICODE
-*/
